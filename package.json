@@ -7,16 +7,8 @@
     "dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YaroslavArtemenko/webpack-template-course.git"
-  },
   "author": "Yaro",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YaroslavArtemenko/webpack-template-course/issues"
-  },
-  "homepage": "https://github.com/YaroslavArtemenko/webpack-template-course#readme",
   "devDependencies": {
     "path": "^0.12.7",
     "webpack": "^5.64.3",
