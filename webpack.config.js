@@ -17,6 +17,13 @@ module.exports = {
         clean: true,
         publicPath: "/"
     },
+    module: {
+        rules: [{
+            test: /\.js$/,
+            loader: "babel-loader",
+            exclude: '/node_modules/'
+        }]
+    },
     devServer: {
         static: './dist'
     }
