@@ -1,17 +1,17 @@
 const path = require('path')
 
 module.exports = {
-    //entry point
     entry: {
-       app: '.src/index.js'
+        app: './src/index.js'
     },
-    //exit point
     output: {
-        filename: "[name].js",
-        path: path.resolve(__dirname, './dist'),
-        publicPath: './dist'
+        filename: '[name].js',
+        path: path.resolve(__dirname, '../dist'),
+        publicPath: '/dist'
     },
     devServer: {
-        overlay: true  // for errors
+        client : {
+            overlay: true
+        }
     }
 }
