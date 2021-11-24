@@ -10,6 +10,7 @@
   "author": "Yaro",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "path": "^0.12.7",
     "webpack": "^5.64.3",
     "webpack-cli": "^4.9.1",
