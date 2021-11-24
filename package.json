@@ -1,0 +1,26 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "My template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavArtemenko/webpack-template-course.git"
+  },
+  "author": "Yaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaroslavArtemenko/webpack-template-course/issues"
+  },
+  "homepage": "https://github.com/YaroslavArtemenko/webpack-template-course#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
